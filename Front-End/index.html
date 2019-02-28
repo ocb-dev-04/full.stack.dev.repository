@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies Collection - Home</title>
+
+    <!-- global styles -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- individual styles -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- fonts awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header>
+    <div class="center" id="between">
+        <div class="slogan">
+            <a href="#" target="_blank">Movie List</a>
+        </div>
+
+        <div class="search_side">
+            <input type="text" name="search_input" placeholder="Type some movie name..." id="search">
+            <a href="" class="search_btn">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+
+        <div class="nav_menu">
+            <a href="#" target="_blank">Home</a>
+            <a href="#" target="_blank">AboutUs</a>
+            <a href="#" target="_blank">Contact</a>
+            <a href="#" target="_blank" class="login">Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- there is two parts, alphabet order and movies list -->
+<section>  
+    <div class="center">  
+
+        <div class="last_movies">
+            <h3>Latest releases</h3>
+
+            <div class="last_container">
+                <!-- latests movies charge and create the html from js list (simulating an api) -->
+                <!-- <div class="split_container">
+                    <img src="./src/img/skywraper.jpg" alt="">
+                </div> -->
+                
+            </div>
+        </div>
+
+        <div class="alphabet_order">
+            <a href="#" class="past_next"><<</a>
+                <div class="letters"></div>
+            <a href="#" class="past_next">>></a>
+        </div>
+
+        <h3>List of available movies</h3>
+        <div class="movie_list">
+                <!-- <div class="split_container">
+                    <img src="./src/img/skywraper.jpg" alt="">
+                    <a href="#">Name of the movie</a>
+                </div> -->
+                
+        </div>
+    </div>
+</section>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
+<script src="./js/jQuery_dev_mode.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
